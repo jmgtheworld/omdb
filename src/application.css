@@ -1,0 +1,153 @@
+.appName{
+  margin: 50px;
+  font-size: 30px;
+}
+
+.mainContent_results {
+  display: flex;
+  flex-direction: column;
+  margin-right: 100px;
+}
+
+.share{
+  margin: 10px;
+}
+
+.links{
+  display: flex;
+  justify-content: space-between;
+  margin: 25px 0 50px 0;
+}
+
+.NominationHeader{
+  margin-top: 25px;
+  font-size: 25px;
+}
+
+.headerImage{
+  width: 150px;
+  height: 150px;
+  margin-right: 25px;
+}
+
+.banner {
+  width: 900px;
+  margin: 30px 50px 30px 50px;
+  padding: 20px;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.mainContent{
+  display: flex;
+}
+
+.movieTitle{
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.article_form {
+  margin: 50px;
+  width: 900px;
+  padding: 25px;
+  background-color: white;
+  border-style: solid;
+  border-width: 2px;
+}
+
+.inputForm{
+  margin-top: 20px;
+  position: relative;
+}
+
+.search{
+  display: flex;
+}
+
+.searchIcon{
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  left: 10px;
+  top: 13px;
+}
+
+.loading{
+  margin: 5px 0 0 15px;
+}
+
+.results {
+  margin: 0px 0px 20px 50px;
+}
+
+.movieArticle {
+  margin: 0px 0px 0px 50px;
+  display: flex;
+  padding: 35px;
+  width: 400px;
+  background-color: white;
+}
+
+.emptyMovieArticle {
+  margin: 0px 0px 0px 50px;
+  display: flex;
+  padding: 35px;
+  width: 400px;
+  background-color: lightgray;
+}
+
+#movieImage {
+  width: 150px;
+  height: 200px;
+}
+
+.movieContent{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-left: 25px;
+}
+
+.movieDetail{
+  font-size: 17px;
+  font-weight: bold;
+}
+
+.button {
+  width: 100px;
+  height: 40px;
+  font-family: sans-serif;
+}
+
+.inputMovie {
+  font-style: arial;
+  width: 800px;
+  padding: 10px;
+  padding-left: 40px;
+  font-size: 15px;
+}
+
+.mainContent_nominations {
+  background-color: white;
+  width: 400px;
+  padding: 15px;
+}
+
+.nominations {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.nomainateImage {
+  width: 25px;
+  height: 25px;
+  margin-right: 10px;
+}
+
+.nominateArticle {
+  display: flex;
+  flex-direction: row;
+  height: auto;
+  margin-top: 20px;
+}
