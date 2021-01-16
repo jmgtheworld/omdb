@@ -1,6 +1,5 @@
 
 import Movie from "./Movie";
-import {useState} from 'react';
 
 import '../application.css'
 

@@ -20,7 +20,7 @@ export default function Search (props) {
  
   const [loading, setLoading] = useState(false);
 
-  const [list, setList] = useState([{Title: "Batman", Year: "2008", imdbID: "tt20238s", Poster: "https://m.media-amazon.com/images/M/MV5BOTY4YjI2N2MtYmFlMC00ZjcyLTg3YjEtMDQyM2ZjYzQ5YWFkXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_SX300.jpg"}]);
+  const [list, setList] = useState([{Title: "The Office", Year: "2005-2013", imdbID: "tt0386676", Poster: "https://m.media-amazon.com/images/M/MV5BMDNkOTE4NDQtMTNmYi00MWE0LWE4ZTktYTc0NzhhNWIzNzJiXkEyXkFqcGdeQXVyMzQ2MDI5NjU@._V1_SX300.jpg"}]);
 
   useEffect (() => {
     setLoading(true)
