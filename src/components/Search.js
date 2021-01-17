@@ -88,7 +88,7 @@ export default function Search (props) {
       <Switch>
         <Route path = "/nominations">
           <Header generate = {generate()} name = {name} />
-          <div className = "mainContent_nominations">
+          <div className = "mainContent_nominations_share">
             <NominationPage list = {list} />
           </div>
         </Route>
