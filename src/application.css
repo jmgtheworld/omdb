@@ -1,5 +1,10 @@
+#root{
+  max-width: 100%;
+}
+
 .appName{
   margin: 50px;
+  width: 900px;
   font-size: 35px;
   font-family: 'Open Sans', sans-serif;
   font-weight: bold;
@@ -43,6 +48,8 @@
 
 .mainContent{
   display: flex;
+  width: 900px;
+  justify-content: space-between;
 }
 
 .movieTitle{
@@ -133,7 +140,7 @@
 
 .mainContent_nominations {
   background-color: white;
-  width: 400px;
+  min-width: 400px;
   padding: 15px;
 }
 
@@ -153,4 +160,8 @@
   flex-direction: row;
   height: auto;
   margin-top: 20px;
+  @media only screen and (max-width: 1410px) {
+    flex-direction: column;
+    align-items: center;
+  }
 }
