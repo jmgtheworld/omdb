@@ -1,20 +1,19 @@
-#root{
+
+#root {
+  min-width: 490px; 
   max-width: 100%;
+  height: 100%;
+  margin-right: 10px;
+
 }
 
 .appName{
   margin: 50px;
-  width: 900px;
+  min-width: 800px;
   font-size: 35px;
   font-family: 'Open Sans', sans-serif;
   font-weight: bold;
   background-color: white;
-}
-
-.mainContent_results {
-  display: flex;
-  flex-direction: column;
-  margin-right: 100px;
 }
 
 .share{
@@ -48,9 +47,26 @@
 
 .mainContent{
   display: flex;
-  width: 900px;
   justify-content: space-between;
+  min-width: 500px;
 }
+
+.mainContent_results {
+  display: flex;
+  flex-direction: column;
+  width: 380px;
+
+}
+
+.mainContent_nominations {
+  background-color: white;
+  margin-left: 15%;
+  margin-right: 7%;
+  height: 100%;
+  width: 380px;
+  padding: 15px;
+}
+
 
 .movieTitle{
   font-size: 15px;
@@ -59,7 +75,7 @@
 
 .article_form {
   margin: 50px;
-  width: 900px;
+  min-width: 800px;
   padding: 25px;
   background-color: white;
   border-style: solid;
@@ -88,14 +104,14 @@
 }
 
 .results {
-  margin: 0px 0px 20px 50px;
+  margin: 0px 0px 20px 70px;
 }
 
 .movieArticle {
   margin: 0px 0px 0px 50px;
   display: flex;
   padding: 35px;
-  width: 400px;
+  width: 360px;
   background-color: white;
 }
 
@@ -132,17 +148,12 @@
 
 .inputMovie {
   font-style: arial;
-  width: 800px;
+  width: 500px;
   padding: 10px;
   padding-left: 40px;
   font-size: 15px;
 }
 
-.mainContent_nominations {
-  background-color: white;
-  min-width: 400px;
-  padding: 15px;
-}
 
 .nominations {
   font-size: 20px;
