@@ -1,4 +1,4 @@
-import {Fragment, useState } from 'react';
+import {Fragment } from 'react';
 import '../application.css'
 
 export default function Movie(props) {
