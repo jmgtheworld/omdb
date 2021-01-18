@@ -16,7 +16,11 @@
 }
 
 .share{
-  margin: 10px;
+  font-family: sans-serif;
+  font-weight: bold;
+  padding: 8px;
+  color:  rgb(32, 148, 108);
+
 }
 
 .links{
@@ -27,7 +31,11 @@
 
 .NominationHeader{
   margin-top: 25px;
+  margin-bottom: 65px;
+  padding: 35px;
+  background-color: white;
   font-size: 25px;
+  font-weight: bold;
 }
 
 .headerImage{
@@ -37,12 +45,14 @@
 }
 
 .banner {
-  width: 900px;
+  width: 88%;
   margin: 30px 50px 30px 50px;
   padding: 20px;
   font-size: 15px;
   font-weight: bold;
 }
+
+
 
 .mainContent{
   display: flex;
@@ -165,6 +175,7 @@
 .nominations {
   font-size: 20px;
   font-weight: bold;
+  margin-right: 10px;
 }
 
 .nomainateImage {

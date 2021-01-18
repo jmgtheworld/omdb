@@ -1,4 +1,5 @@
 import { Fragment } from "react";
+import { Alert } from 'react-bootstrap';
 import {
   Link
 } from "react-router-dom";
@@ -12,7 +13,11 @@ export default function Header (props) {
         <h2 className = "NominationHeader"> My Dundies Nominations</h2>  
         <div className = "links">
           <Link to = "/" className = "btn btn-outline-info  linkToMain"> Back to Main </Link> 
-          <span> Short URL :<a href = "/nominations"> {generate} </a> </span>
+            <span className = "share">
+              Short URL to share your list: 
+              <a href = "/nominations"> {generate} </a> 
+            </span>
+            
         </div>
        
     </Fragment>
