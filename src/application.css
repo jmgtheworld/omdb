@@ -19,8 +19,13 @@
   font-family: sans-serif;
   font-weight: bold;
   padding: 8px;
-  color:  rgb(32, 148, 108);
+  color:  #17a2b8;
+}
 
+.share-text{
+  font-weight: normal;
+  margin-right: 5px;
+  font-size: 17px;
 }
 
 .links{

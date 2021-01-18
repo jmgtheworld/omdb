@@ -14,7 +14,9 @@ export default function Header (props) {
         <div className = "links">
           <Link to = "/" className = "btn btn-outline-info  linkToMain"> Back to Main </Link> 
             <span className = "share">
-              Short URL to share your list: 
+              <span className = 'share-text'>
+                Short URL to share your list: 
+              </span>
               <a href = "/nominations"> {generate} </a> 
             </span>
             
