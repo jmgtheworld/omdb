@@ -18,8 +18,9 @@ export default function SearchBar(props) {
 
   return (
     <Fragment> 
-    
-      <h2 className = "appName">   <img src = "../../dundies.jpg" alt = "headerImage" className = "headerImage" />The Dundies </h2>
+      <h2 className = "appName"> 
+        The Dundies
+      </h2>
       <article className="article_form">
         <span className = "movieTitle"> Movie Title </span> 
         <form onSubmit = {event => event.preventDefault()} className = "inputForm">

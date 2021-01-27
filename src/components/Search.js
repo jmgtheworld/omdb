@@ -80,7 +80,6 @@ export default function Search (props) {
     let disabledButtonsCopy = disabledButtons;
     disabledButtonsCopy = disabledButtonsCopy.filter(item => item!== id)
     setDisabledButtons(disabledButtonsCopy)
-    console.log('toggleonButton cliked')
   }
   
   return (
@@ -98,14 +97,14 @@ export default function Search (props) {
             {showBanner()}
             {showResult(term)}
             <div className = "mainContent">
-            <div className = "mainContent_results">
-            <Results results = {results} onClick = {addNomination} disabled = {disabledButtons} handleButton = {handleButton}/>
-            </div>
-            <div className = "mainContent_nominations">
-              <img src = "trophy.svg" className = "nomainateImage" alt = "trophy"/>
-              <span className = "nominations" > Nominations </span>
-              <Link to = "/nominations" className ="btn btn-outline-info share"> Share </Link>
-            <Nominations list = {list} onClick = {removeNomination} disabled = {disabledButtons} handleButton = {toggleOn}/>
+              <div className = "mainContent_results">
+                <Results results = {results} onClick = {addNomination} disabled = {disabledButtons} handleButton = {handleButton}/>
+              </div>
+              <div className = "mainContent_nominations">
+                <img src = "trophy.svg" className = "nomainateImage" alt = "trophy"/>
+                <span className = "nominations" > Nominations </span>
+                <Link to = "/nominations" className ="btn btn-outline-info share"> Share </Link>
+                <Nominations list = {list} onClick = {removeNomination} disabled = {disabledButtons} handleButton = {toggleOn}/>
               </div>
             </div>
           </Fragment>

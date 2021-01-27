@@ -1,198 +1,227 @@
 
-#root {
-  min-width: 490px; 
-  max-width: 100%;
-  height: 100%; 
-}
+  .appName{
+    margin: 50px;
+    width: 90%;
+    font-size: 35px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+  }
+
+  .share{
+    font-family: sans-serif;
+    font-weight: bold;
+    padding: 8px;
+    color:  #17a2b8;
+  }
+
+  .share-text{
+    font-weight: normal;
+    margin-right: 5px;
+    font-size: 17px;
+  }
+
+  .links{
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  .NominationHeader{
+    margin-top: 40px;
+    margin-bottom: 50px;
+    margin-left: 22%;
+    width: 1000px;
+    font-size: 25px;
+    font-weight: bold;
+  }
+
+  .banner {
+    margin: 30px 50px 30px 50px;
+    padding: 20px;
+    font-size: 15px;
+    font-weight: bold;
+  }
+
+  .mainContent{
+    display: flex;
+    justify-content: space-between;
+    width: 85%;
+  }
+
+  .mainContent_results {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    min-width: 600px;
+  }
+
+  .mainContent_nominations {
+    background-color: gainsboro;
+    margin-bottom: 100px;
+    margin-right: 5%;
+    min-width: 400px;
+    padding: 20px;
+    border-color: black;
+    border-style: solid;
+    border-radius: 10px;
+  }
+
+  .mainContent_nominations_share{
+    background-color: white;
+    margin-bottom: 100px;
+    margin-left: 30%;
+    width: 490px;
+    padding: 15px;
+  }
+
+  .movieTitle{
+    font-size: 18px;
+    font-weight: bold;
+  }
+
+  .article_form {
+    margin: 50px;
+    min-width: 600px;
+    max-width: 77%;
+    padding: 19px;
+    background-color: white;
+    border-style: solid;
+    border-width: 2px;
+  }
+
+  .inputForm{
+    margin-top: 20px;
+    position: relative;
+  }
+
+  .searchIcon{
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    left: 10px;
+    top: 13px;
+  }
+
+  .loading{
+    margin: 5px 0 0 15px;
+  }
+
+  .results {
+    margin: 0px 0px 20px 55px;
+  }
+
+  .movieArticle {
+    margin: 0px 0px 0px 50px;
+    display: flex;
+    padding: 35px;
+    width: 80%;
+    background-color: gainsboro;
+    border-color: black;
+    border-style: solid;
+    border-width: 3px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+  }
+
+  .emptyMovieArticle {
+    margin: 0px 0px 0px 50px;
+    display: flex;
+    padding: 35px;
+    width: 400px;
+    background-color: white;
+  }
+
+  #movieImage {
+    width: 150px;
+    height: 200px;
+  }
+
+  .movieContent{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 25px;
+  }
+
+  .movieDetail{
+    font-size: 17px;
+    font-weight: bold;
+  }
+
+  .button {
+    width: 100px;
+    height: 40px;
+    font-family: sans-serif;
+  }
+
+  .inputMovie {
+    font-style: arial;
+    width: 55%;
+    padding: 10px;
+    padding-left: 40px;
+    font-size: 15px;
+  }
+
+  .nominations {
+    font-size: 20px;
+    font-weight: bold;
+    margin-right: 10px;
+  }
+
+  .nomainateImage {
+    width: 25px;
+    height: 25px;
+    margin-right: 10px;
+  }
+
+  .nominateArticle {
+    display: flex;
+    flex-direction: row;
+    height: auto;
+    margin-top: 40px;
+    background-color: gainsboro;
+    padding: 25px;
+    min-width: 350px;
+    border-radius: 10px;
+  }
+
+  @media only screen and (max-width: 600px) {
+    .mainContent_nominations {
+      background-color: gainsboro;
+      margin-bottom: 100px;
+      margin-right: 300px;
+      min-width: 400px;
+      padding: 20px;
+      border-color: black;
+      border-style: solid;
+      border-radius: 10px;
+    }
 
 
-.appName{
-  margin: 50px;
-  min-width: 800px;
-  font-size: 35px;
-  font-family: 'Open Sans', sans-serif;
-  font-weight: bold;
-  background-color: white;
-}
+  .mainContent_results {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    min-width: 450px;
+  }
 
-.share{
-  font-family: sans-serif;
-  font-weight: bold;
-  padding: 8px;
-  color:  #17a2b8;
-}
+  .article_form {
+    margin: 50px;
+    min-width: 600px;
+    max-width: 77%;
+    padding: 19px;
+    background-color: white;
+    border-style: solid;
+    border-width: 2px;
+  }
 
-.share-text{
-  font-weight: normal;
-  margin-right: 5px;
-  font-size: 17px;
-}
-
-.links{
-  display: flex;
-  justify-content: space-between;
-  margin: 25px 0 50px 0;
-}
-
-.NominationHeader{
-  margin-top: 25px;
-  margin-bottom: 65px;
-  padding: 35px;
-  background-color: white;
-  font-size: 25px;
-  font-weight: bold;
-}
-
-.headerImage{
-  width: 130px;
-  height: 150px;
-  margin-right: 30px;
-}
-
-.banner {
-  width: 88%;
-  margin: 30px 50px 30px 50px;
-  padding: 20px;
-  font-size: 15px;
-  font-weight: bold;
-}
+  .links{
+    display: flex;
+    justify-content: space-evenly;
+    width: 500px;
+    margin-left: 100px;
+  }
 
 
-
-.mainContent{
-  display: flex;
-  justify-content: space-between;
-  min-width: 500px;
-}
-
-.mainContent_results {
-  display: flex;
-  flex-direction: column;
-  width: 380px;
-
-}
-
-.mainContent_nominations {
-  background-color: white;
-  margin-left: 18%;
-  margin-right: 7%;
-  margin-bottom: 100px;
-  height: 100%;
-  width: 380px;
-  padding: 15px;
-}
-
-.mainContent_nominations_share{
-  background-color: white;
-  margin-bottom: 100px;
-  width: 490px;
-  padding: 15px;
-}
+  }
 
 
-.movieTitle{
-  font-size: 15px;
-  font-weight: bold;
-}
-
-.article_form {
-  margin: 50px;
-  min-width: 800px;
-  padding: 19px;
-  background-color: white;
-  border-style: solid;
-  border-width: 2px;
-}
-
-.inputForm{
-  margin-top: 20px;
-  position: relative;
-}
-
-.search{
-  display: flex;
-}
-
-.searchIcon{
-  width: 20px;
-  height: 20px;
-  position: absolute;
-  left: 10px;
-  top: 13px;
-}
-
-.loading{
-  margin: 5px 0 0 15px;
-}
-
-.results {
-  margin: 0px 0px 20px 55px;
-}
-
-.movieArticle {
-  margin: 0px 0px 0px 50px;
-  display: flex;
-  padding: 35px;
-  width: 360px;
-  background-color: white;
-}
-
-.emptyMovieArticle {
-  margin: 0px 0px 0px 50px;
-  display: flex;
-  padding: 35px;
-  width: 400px;
-  background-color: lightgray;
-}
-
-#movieImage {
-  width: 150px;
-  height: 200px;
-}
-
-.movieContent{
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  margin-left: 25px;
-}
-
-.movieDetail{
-  font-size: 17px;
-  font-weight: bold;
-}
-
-.button {
-  width: 100px;
-  height: 40px;
-  font-family: sans-serif;
-}
-
-.inputMovie {
-  font-style: arial;
-  width: 500px;
-  padding: 10px;
-  padding-left: 40px;
-  font-size: 15px;
-}
-
-
-.nominations {
-  font-size: 20px;
-  font-weight: bold;
-  margin-right: 10px;
-}
-
-.nomainateImage {
-  width: 25px;
-  height: 25px;
-  margin-right: 10px;
-}
-
-.nominateArticle {
-  display: flex;
-  flex-direction: row;
-  height: auto;
-  margin-top: 40px;
-
-}
